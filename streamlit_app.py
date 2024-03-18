@@ -8,4 +8,4 @@ l=voc.shape(voc)
 i=hp.random.choice(range(l))
 word_fr=voc['Definition'].values
 word_chi=voc['?'].values[i]
-st.write (word_fr+"  "+word_chi
+st.write (word_fr+" "+word_chi
