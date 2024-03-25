@@ -15,7 +15,7 @@ def is_correct(i, j):
   if i==j:
     st.write("Bien joué !")
     del st.session_state["indice"]
-  else:
+ else:
     st.write("Perdu !")
     st.session_state["indice"]=indice
 
