@@ -28,5 +28,7 @@ with col2:
 st.button("Seconday button")  # st.button default type is secondary
 st.button("Primary button", type="primary")
 st.session_state["my_var"]=1
-if"my_var"in st.session_state
+if "my_var" in st.session_state
 det st.session_state ["my_var"]
+st.session_state["indice"]=indice
+det st.session_state["indice"]
