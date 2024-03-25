@@ -17,7 +17,7 @@ def is_correct(i, j):
     del st.session_state["indice"]
   else:
     st.write("Perdu !")
-  st.session_state["indice"]=indice
+    st.session_state["indice"]=indice
 
 col1, col2 = st.columns(2) 
 with col1:
