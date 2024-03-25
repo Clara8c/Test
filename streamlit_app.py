@@ -14,7 +14,7 @@ st.write('Traduis: '+word_fr)
 def is_correct(i, j):
   if i==j:
     st.write("Bien joué !")
-    det st.session_state["indice"]
+    del st.session_state["indice"]
   else:
     st.write("Perdu !")
   st.session_state["indice"]=indice
