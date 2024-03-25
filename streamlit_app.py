@@ -13,8 +13,10 @@ st.write('Traduis: '+word_fr)
 def is_correct(i, j):
   if i==j:
     st.write("Bien joué !")
+    det st.session_state["indice"]
   else:
     st.write("Perdu !")
+  st.session_state["indice"]=indice
 
 col1, col2 = st.columns(2) 
 with col1:
@@ -25,10 +27,3 @@ with col2:
         st.button(voc["Hanzi"].values[indices[i]], on_click= is_correct, args=(indices[i],j))
 
 
-st.button("Seconday button")  # st.button default type is secondary
-st.button("Primary button", type="primary")
-st.session_state["my_var"]=1
-if "my_var" in st.session_state
-det st.session_state ["my_var"]
-st.session_state["indice"]=indice
-det st.session_state["indice"]
